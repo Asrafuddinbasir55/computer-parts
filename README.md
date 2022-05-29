@@ -1,6 +1,6 @@
-* Github Cline side Link: 
+* Github Cline side Link: https://github.com/programming-hero-web-course1/manufacturer-website-client-side-Asrafuddinbasir55.git
 
-* Github Server side Link: 
+* Github Server side Link: https://github.com/programming-hero-web-course1/manufacturer-website-server-side-Asrafuddinbasir55.git
 
 * Live Website Link: 
 
