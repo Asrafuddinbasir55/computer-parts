@@ -66,7 +66,7 @@ In the next section, we would look at why we should
      another and build customer loyalty around
      A branding strategy helps establish a product within the market and to build a brand that will grow and
      brands may even be in de facto competition with other brands from the same company. 
-     For example, Kool-Aid and Tang are two powdered beverage products, both owned by Kraft Foods. The "house of brands
+     For example, Kool-Aid and Tang are two powdered beverage products, both owned by Kraft Foods. The
                     </p>
                 </div>
             </div>
