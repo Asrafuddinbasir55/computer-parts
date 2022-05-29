@@ -58,11 +58,15 @@ In the next section, we would look at why we should
             <div className="card w-5/6 mx-auto gap-4 bg-base-100 shadow-xl">
                 <div className="card-body">
                     <h2 className="card-title">You have an array of products. Each product has a name, price, description, etc. How will you implement a search to find products by name?</h2>
-                    <p>Understanding how to write a product description requires putting yourself in the shoes of your audience. When you write a product description with a huge crowd of
-                        buyers in mind, your descriptions become wishy-washy and you end up addressing no one at all.
-                        The problem is our potential buyers are not as interested in mundane features and specs. They want to know whats
-                        in it for them—how it will address their biggest pain points. Successfully executing how to write a product description
-                        When were stuck for words and dont know what else to add to our product description, we often add something bland like excellent product quality
+                    <p>For companies and other organizations that produce goods, branding helps create loyalty. 
+    It decreases the risk of losing market share to the competition by establishing a competitive 
+    advantage customers can count on. Strong brands often command premium pricing
+    Retailers such as Target, Safeway, and Walmart create brands of their own to create a loyal
+     base of customers. Branding enables these retailers to differentiate themselves from one 
+     another and build customer loyalty around
+     A branding strategy helps establish a product within the market and to build a brand that will grow and
+     brands may even be in de facto competition with other brands from the same company. 
+     For example, Kool-Aid and Tang are two powdered beverage products, both owned by Kraft Foods. The "house of brands
                     </p>
                 </div>
             </div>
