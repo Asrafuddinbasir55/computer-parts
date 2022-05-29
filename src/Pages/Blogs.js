@@ -9,10 +9,10 @@ const Blogs = () => {
                     <p>React then proceeds to apply only the UI changes to the real UI on the browser.
 When the data associated with a component change, React determines if an actual DOM update is 
 required. This allows React to avoid potentially expensive DOM manipulation operations in the browser, 
-such as creating DOM nodes and accessing existing ones beyond necessity.
+such as creating DOM nodes  accessing existing ones beyond necessity.
 This repeated diffing and rendering of components In the image above, 
 all of the yellow nodes are rendered and diffed, resulting in wasted time computation 
-resources. This is where we will primarily put our optimization efforts in. Configuring each component to 
+resources. This is  will primarily put our optimization efforts in. Configuring each component to 
 only render-diff when it is necessary will allow us to reclaim these wasted CPU cycles. can be one of the primary 
 sources of React performance issues in any React app. Building a React app where the diffing algorithm fails to reconcile effectively, 
 causing the entire app to be rendered repeatedly can result in a frustratingly slow experience
