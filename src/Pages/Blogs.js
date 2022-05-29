@@ -6,11 +6,16 @@ const Blogs = () => {
             <div className="card w-5/6 mx-auto  bg-base-100 shadow-xl">
                 <div className="card-body">
                     <h2 className="card-title">How will you improve the performance of a React Application?</h2>
-                    <p> In React your UI is rendered by updating something called as DOM Document Object Model
-                        I items on your SPA Single page Application and you have to update one of them when your user interacts with  With DOM you will end up updating all the components as entire list will get re rendered
-                        Thats where the concept of Virtual DOM comes into play The Virtual DOM is Reacts local copy of the HTML
-                        Lets go back to our list example and figure out how Virtual DOM will let React renders the
-                        When user interacts with UI React would create a copy in the form of Virtual DOM and updates the UI after comparing the real DOM with virtual  In this way the item which needs to be updated will update without affecting other items
+                    <p>React then proceeds to apply only the UI changes to the real UI on the browser.
+When the data associated with a component change, React determines if an actual DOM update is 
+required. This allows React to avoid potentially expensive DOM manipulation operations in the browser, 
+such as creating DOM nodes and accessing existing ones beyond necessity.
+This repeated diffing and rendering of components In the image above, 
+all of the yellow nodes are rendered and diffed, resulting in wasted time computation 
+resources. This is where we will primarily put our optimization efforts in. Configuring each component to 
+only render-diff when it is necessary will allow us to reclaim these wasted CPU cycles. can be one of the primary 
+sources of React performance issues in any React app. Building a React app where the diffing algorithm fails to reconcile effectively, 
+causing the entire app to be rendered repeatedly can result in a frustratingly slow experience
                     </p>
                 </div>
             </div>
@@ -19,14 +24,7 @@ const Blogs = () => {
             <div className="card w-5/6 mx-auto gap-4 bg-base-100 shadow-xl">
                 <div className="card-body">
                     <h2 className="card-title">What are the different ways to manage a state in a React application?</h2>
-                    <p>React components have a built-in state object. The state is encapsulated data where
-                        you store assets that are persistent between component renderings.
-                        The state is just a fancy term for a JavaScript data structure. If a user
-                        changes state by interacting with your application, the UI may look completely
-                        different afterwards, because it's represented by this new state rather than the old state.
-                        Redux was created to resolve this particular issue. it provides a central store that holds all states of
-                        your application. Each component can access the stored state without sending it from one component to another.
-                        Here is a simple view of how Redux works.
+                    <p>
                     </p>
                 </div>
             </div>
