@@ -1,10 +1,10 @@
-* Github Cline side Link: https://github.com/programming-hero-web-course1/manufacturer-website-client-side-shorifuddin2
+* Github Cline side Link: 
 
-* Github Server side Link: https://github.com/programming-hero-web-course1/manufacturer-website-server-side-shorifuddin2
+* Github Server side Link: 
 
-* Live Website Link: https://computer-info-parts.web.app/
+* Live Website Link: 
 
-* Server Side Live Link: http://localhost:5000/
+* Server Side Live 
 
 
 * Project Building is bootstrap,daisyUi,firebase,jsonwebtoken,react-bootstrap,react-dom,react-firebase-hooks,react-hook-form,react-query,react-router-dom,react-scripts,react-toastify etc .

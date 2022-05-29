@@ -123,7 +123,7 @@ const Portfolio = () => {
                 <div className='mx-20 p-20'>
                         <h1 className='text-3xl'>Present Address</h1>
                         <h2 className='text-2xl'>Email: asrafuddinbasir0@gmail.com</h2>
-                        <h2 className='text-2xl'>District: Habiganj Sadar, Sylhet</h2>
+                        <h2 className='text-2xl'>District: Chunarughat, Habiganj, Sylhet</h2>
                         <h2 className='text-2xl'>Nationality: Bangladeshi</h2>
                         <h2 className='text-2xl'>Phone: +08801301745205</h2>
                         <div className='flex'>
