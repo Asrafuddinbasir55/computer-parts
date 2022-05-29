@@ -24,7 +24,14 @@ causing the entire app to be rendered repeatedly can result in a frustratingly s
             <div className="card w-5/6 mx-auto gap-4 bg-base-100 shadow-xl">
                 <div className="card-body">
                     <h2 className="card-title">What are the different ways to manage a state in a React application?</h2>
-                    <p>
+                    <p>Redux is one of the most popular React state management libraries as of the time of this article.
+In this section, we would look closely into when to use Redux in an application.
+Firstly, Redux allows you to manage your app's state in a single place and keep changes in your app more predictable and traceable. It makes occurring changes in your app easier to figure out. Unfortunately, all of these benefits come with specific constraints and tradeoffs.
+Frequently, developers feel using Redux adds up some boilerplate code, making little things seemingly overwhelming; however, that depends solely on the app's architectural decision.
+One of the easiest ways to know when you genuinely need to use Redux is when managing state locally begins to look messy.
+As the application grows, so does state sharing across components gets tedious.
+At that point, you'd now start looking for ways to make the process hassle-free.
+In the next section, we would look at why we should
                     </p>
                 </div>
             </div>
@@ -33,12 +40,7 @@ causing the entire app to be rendered repeatedly can result in a frustratingly s
             <div className="card w-5/6 mx-auto gap-4 bg-base-100 shadow-xl">
                 <div className="card-body">
                     <h2 className="card-title">How does prototypical inheritance work?</h2>
-                    <p>JavaScript has only primitives types null undefined, and objects. A big world of objects. In JavaScript contrary to languages like Java or PHP theres no concept of className that serves as a template to create objects.
-                        Let's also recall that an object is a composable structure having properties: key and value pairs. For example, the following object cat contains 2 properties
-                        In JavaScript, an object can inherit properties of another object. The object from where the properties are inherited is named prototype.
-                        Following the example, you can make pet a prototype of cat which will then inherit legs property.
-                        When creating an object using the object literal you can use the special property proto to set the prototype of the created object.
-                        Let's use __proto__ and make pet the prototype of c
+                    <p>
                     </p>
                 </div>
             </div>
