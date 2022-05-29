@@ -40,7 +40,16 @@ In the next section, we would look at why we should
             <div className="card w-5/6 mx-auto gap-4 bg-base-100 shadow-xl">
                 <div className="card-body">
                     <h2 className="card-title">How does prototypical inheritance work?</h2>
-                    <p>
+                    <p>Besides the prototype, JavaScript has another related feature that all
+ the objects have as a special property and its the one responsible for 
+ the behavior described before. Its name is Prototype yes, with brackets and is 
+ in charge of saving a reference to the prototype object. The reference is kept by any object
+  created using the prototype as a model. We can replace the prototype, but then only the objects 
+  created after the replacement will have the new object as its prototype.
+  What happens on line 9 is what does the magic extending the Vehicle through the Cars 
+  constructor. The prototype object bond together Car and Vehicle. With this rudimentary form 
+   I mean creating an instance of Vehicle as a prototype we have the problem of assigning unnecessary
+    properties to the Cars prototype object, the ones set to this when we call the Vehicles constructor
                     </p>
                 </div>
             </div>
