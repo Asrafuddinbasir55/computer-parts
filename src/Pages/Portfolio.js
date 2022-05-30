@@ -127,10 +127,10 @@ const Portfolio = () => {
                         <h2 className='text-2xl'>Nationality: Bangladeshi</h2>
                         <h2 className='text-2xl'>Phone: +08801301745205</h2>
                         <div className='flex'>
-                        <a href='https://www.facebook.com/shorif.uddin.milon2' target='_blank'><img className='w-8 m-3' src={Facebook}/></a>
-                        <a href='https://github.com/shorifuddin2' target='_blank'><img className='w-8 m-3' src={Github}/></a>
-                        <a href='https://www.linkedin.com/in/shorif-uddin-58b01a203/' target='_blank'><img className='w-8 m-3' src={Linkedin}/></a>
-                        <a href='https://mail.google.com/mail/u/0/#inbox?compose=new' target='_blank'><img className='w-8 m-3' src={Email}/></a>
+                        <a href='https://www.facebook.com/baairuddin.navik' target='_blank'><img className='w-8 m-3' src={Facebook}/></a>
+                        <a href='https://github.com/Asrafuddinbasir55' target='_blank'><img className='w-8 m-3' src={Github}/></a>
+                        <a href='' target='_blank'><img className='w-8 m-3' src={Linkedin}/></a>
+                        <a href='https://mail.google.com/mail/u/0/#inbox' target='_blank'><img className='w-8 m-3' src={Email}/></a>
                         </div>
                 </div>
             </section>
