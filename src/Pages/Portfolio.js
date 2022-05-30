@@ -1,8 +1,8 @@
 import React from 'react';
-import image from '../assets/images/milon-3.png'
-import website from '../assets/images/phone-wb.png'
-import Torius from '../assets/images/Torius.png'
-import Bake from '../assets/images/Bake.png'
+import basir from '../assets/images/basir.png.jpg'
+import smurtPhone from '../assets/images/smurtPhone.png'
+import product from '../assets/images/product.png'
+import project from '../assets/images/project.png.png'
 import Facebook from '../assets/icons/facebook.png'
 import Github from '../assets/icons/github.png'
 import Linkedin from '../assets/icons/linkedin.png'
@@ -12,7 +12,7 @@ const Portfolio = () => {
     return (
         <div>
             <div className=" card lg:card-side  bg-blue-300 shadow-xl">
-                <figure><img className='' src={image} alt="Album" /></figure>
+                <figure><img className='' src={basir} alt="Album" /></figure>
                 <div className="card-body">
                     <h2 className="card-title text-pink text-4xl font-bold">My Name is Asraf Uddin Basir</h2>
                     <p className='w-80 text-1xl'>I'm Proportional Full Stack Web Developer.My profession is heard worked coding.2022 year Full Stack Project in the website bootstrap,tailwind, react bootstrap, es6, react router, firebase, mongodb, node js, heroku,express js. etc my product building very awesome  locking for  website.</p>
@@ -26,7 +26,7 @@ const Portfolio = () => {
                     <div className='grid grid-cols-3 gap-4 '>
 
                         <div className="card w-90  bg-base-100 shadow-xl ">
-                            <figure><img className='h-80 w-96' src={website} alt="website" /></figure>
+                            <figure><img className='h-80 w-96' src={smurtPhone} alt="website" /></figure>
                             <div className="card-body">
                                 <h2 className="card-title">
                                     Best smartphone Store Shop
@@ -44,7 +44,7 @@ const Portfolio = () => {
                         </div>
 
                         <div className="card w-90 bg-base-100 shadow-xl">
-                            <figure><img className='h-80 w-96' src={Bake} alt="Shoes" /></figure>
+                            <figure><img className='h-80 w-96' src={project} alt="Shoes" /></figure>
                             <div className="card-body">
                                 <h2 className="card-title">
                                     Tories website Provide
@@ -64,7 +64,7 @@ const Portfolio = () => {
 
 
                         <div className="card w-90 bg-base-100 shadow-xl">
-                            <figure><img className='h-80 w-96' src={Torius} alt="Shoes" /></figure>
+                            <figure><img className='h-80 w-96' src={product} alt="Shoes" /></figure>
                             <div className="card-body">
                                 <h2 className="card-title">
                                     Tories website Provide
