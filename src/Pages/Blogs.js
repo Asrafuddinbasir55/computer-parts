@@ -28,7 +28,7 @@ causing the entire app to be rendered repeatedly can result in a frustratingly s
 In this section, we would look closely into when to use Redux in an application.
 Firstly, Redux allows you to manage your app's state in a single place and keep changes in your app more predictable and traceable. It makes occurring changes in your app easier to figure out. Unfortunately, all of these benefits come with specific constraints and tradeoffs.
 Frequently, developers feel using Redux adds up some boilerplate code, making little things seemingly overwhelming; however, that depends solely on the app's architectural decision.
-One of the easiest ways to know when you genuinely need to use Redux is when managing state locally begins to look messy.
+One of the easiest ways to know when you genuinely to use Redux is when managing state locally begins to look messy.
 As the application grows, so does state sharing across components gets tedious.
 At that point, you'd now start looking for ways to make the process hassle-free.
 In the next section, we would look at why we should
