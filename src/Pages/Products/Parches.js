@@ -5,7 +5,7 @@ import Product from '../Home/Product';
 const Parches = () => {
     const[product,setProduct] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/product')
+        fetch('https://immense-plateau-81230.herokuapp.com/product')
         .then(res=>res.json())
         .then(data=> setProduct(data));
     },[]);

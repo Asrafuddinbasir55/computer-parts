@@ -16,7 +16,7 @@ const Update = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/products/${id}`)
+        fetch(`https://immense-plateau-81230.herokuapp.com/products/${id}`)
             .then(res => res.json())
             .then(data => setProduct(data))
     }, [id])
@@ -38,7 +38,7 @@ const Update = () => {
         orderQuantity: e.target.orderQuantity.value
     }
 
-    fetch('http://localhost:5000/booking', {
+    fetch('https://immense-plateau-81230.herokuapp.com/booking', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

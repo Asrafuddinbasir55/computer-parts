@@ -47,7 +47,7 @@ const EditProfile = () => {
                     github: data.github,
                     avatar: img,
                 }
-                fetch('/http://localhost:5000/users/profile', {
+                fetch('/https://immense-plateau-81230.herokuapp.com/users/profile', {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json',
