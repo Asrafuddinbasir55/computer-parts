@@ -2,9 +2,9 @@
 
 * Github Server side Link: https://github.com/programming-hero-web-course1/manufacturer-website-server-side-Asrafuddinbasir55.git
 
-* Live Website Link: 
+* Live cline side Link: 
 
-* Server Side Live 
+* live Server Side Live : 
 
 
 * Project Building is bootstrap,daisyUi,firebase,jsonwebtoken,react-bootstrap,react-dom,react-firebase-hooks,react-hook-form,react-query,react-router-dom,react-scripts,react-toastify etc .
