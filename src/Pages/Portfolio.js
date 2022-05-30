@@ -53,9 +53,9 @@ const Portfolio = () => {
                                 <p>Bootstrap, firebase, netlify, es6, Node Js, Mongodb</p>
                                 <div className="card-actions justify-end">
                                     <div >
-                                        <a href='https://github.com/Asrafuddinbasir55' target='_blank' className="badge badge-outline">Github Link</a>
+                                        <a href='https://github.com/programming-hero-web-course-4/independent-service-provider-Asrafuddinbasir55' target='_blank' className="badge badge-outline">Github Link</a>
 
-                                        <a href='https://tangerine-vacherin-6f675f.netlify.app/
+                                        <a href='https://cheery-druid-92cee0.netlify.app/
                                     ' target='_blank' className="badge badge-outline">Live website</a>
                                     </div>
                                 </div>
@@ -73,9 +73,9 @@ const Portfolio = () => {
                                 <p>Bootstrap, firebase, es6, Node Js, Mongodb</p>
                                 <div className="card-actions justify-end">
                                     <div >
-                                        <a href='https://github.com/Asrafuddinbasir55' target='_blank' className="badge badge-outline">Github Link</a>
+                                        <a href='https://github.com/programming-hero-web-course-4/product-analysis-website-Asrafuddinbasir55' target='_blank' className="badge badge-outline">Github Link</a>
 
-                                        <a href='https://taupe-vacherin-e56bdd.netlify.app/
+                                        <a href='https://tangerine-vacherin-6f675f.netlify.app/
                                     ' target='_blank' className="badge badge-outline">Live website</a>
                                     </div>
                                 </div>
