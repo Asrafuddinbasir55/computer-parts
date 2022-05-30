@@ -47,7 +47,7 @@ const EditProfile = () => {
                     github: data.github,
                     avatar: img,
                 }
-                fetch('https://ancient-bastion-87117.herokuapp.com/api/users/profile', {
+                fetch('/http://localhost:5000/users/profile', {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json',
@@ -145,7 +145,7 @@ const EditProfile = () => {
                                     value: true,
                                     message: 'LinkedIn is Required'
                                 }
-                            })} name='LinkedIn' placeholder='https://www.linkedin.com/in/shorif-uddin-58b01a203/' className="input input-bordered" />
+                            })} name='LinkedIn' placeholder='' className="input input-bordered" />
                         </div>
                         <div className="form-control">
                             <label className="label">
@@ -156,7 +156,7 @@ const EditProfile = () => {
                                     value: true,
                                     message: 'github is Required'
                                 }
-                            })} name='github' placeholder='https://github.com/shorifuddin2' className="input input-bordered" />
+                            })} name='github' placeholder='https://github.com/Asrafuddinbasir55' className="input input-bordered" />
                         </div>
                         <div className="form-control">
                             <label className="label">
