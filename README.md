@@ -2,7 +2,7 @@
 
 * Github Server side Link: https://github.com/programming-hero-web-course1/manufacturer-website-server-side-Asrafuddinbasir55.git
 
-* Live cline side Link: 
+* Live cline side Link: https://computer-parts-58829.web.app
 
 * live Server Side Live : https://immense-plateau-81230.herokuapp.com/
 
